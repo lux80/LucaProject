@@ -1,6 +1,6 @@
 ﻿body {
     background-color:#666;
-    color: #000305;
+    color: red;
     font-family:Arial, 'Lucida Sans Unicode';
     font-size:87.5%;
     text-align:left;
@@ -10,9 +10,36 @@
 a {
     text-decoration: none;
 }
+.box1
+{
+background:white;
+-moz-background-clip:padding;
+-webkit-background-clip:padding;
+background-clip:padding-box;
+color:black;
+}
 
+.menu
+{
+background:#47B5FF;
+color:black;
+padding:0 50px 0 50px;
+}
+
+.menu li{
+    margin: 0 5px 10px 0;
+    display: inline-block;
+}
+#box4
+{
+background:white;
+-moz-background-clip:padding;
+-webkit-background-clip:padding;
+background-clip:padding-box;
+color:black;
+}
 a:link, a:visited {
-    color:#cf5c3f;
+    color:#00006E;
 }
 
 a:hover, a:active {
